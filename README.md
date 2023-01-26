@@ -1,2 +1,2 @@
 # EBAC
-Repositório pro curso do EBAC
+Repositório pro curso da EBAC

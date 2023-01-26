@@ -117,7 +117,8 @@ int main()
         printf("Escolha a opção desejada:\n\n");
         printf("\t1 - Cadastrar nome\n");
         printf("\t2 - Consultar nome\n");
-        printf("\t3 - Deletar nome\n\n");
+        printf("\t3 - Deletar nome\n");
+        printf("\t4 - Sair do sistema\n\n");
         printf("Opção: \n\n");//fim do menu
 
         scanf("%d", &opcao); //pra pegar o input do usuario e colocar dentro de opcao (%d é pra colocar como integer)
@@ -128,12 +129,16 @@ int main()
         {
             case 1:
                 registro();
-                break;
+                break; //tem que ter em switch/case, pra não sair rodando todos os casos seguintes
             case 2:
                 consulta();
                 break;
             case 3:
                 deletar();
+                break;
+            case 4:
+                printf("Obrigado por utilizar o sistema!\n");
+                return 0; //retorna 0, quebra o loop e fecha
                 break;
             default:
                 printf("Você escolheu uma opção inválida\n\n");

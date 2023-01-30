@@ -66,12 +66,12 @@ def deletar():
 
 def menu():
     print('''
-            ### Cartório da EBAC (Menu principal) ###\n\n
-            Escolha a opção desejada:\n\n
-            \t1 - Cadastrar nome\n
-            \t2 - Consultar nome\n
-            \t3 - Deletar nome\n
-            \t4 - Sair do sistema\n\n
+            ### Cartório da EBAC (Menu principal) ###\n
+            Escolha a opção desejada:\n
+            \t1 - Cadastrar nome
+            \t2 - Consultar nome
+            \t3 - Deletar nome
+            \t4 - Sair do sistema
     ''')
 
     escolhido = str(input("Opção: "))
